@@ -1,0 +1,12 @@
+{
+  "graphs": {
+    "guardrail_agent": "src.guardrail_service.graph:build_graph"
+  },
+  "dependencies": [
+    "."
+  ],
+  "environment_variables": [
+    "OPENAI_API_KEY",
+    "LANGSMITH_API_KEY"
+  ]
+}
